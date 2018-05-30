@@ -90,4 +90,9 @@ view: looker_demo_data_constituents {
     type: count
     drill_fields: []
   }
+
+  measure: total_donation_amt {
+    type: sum
+    sql: ${donation_amt} ;;
+  }
 }
