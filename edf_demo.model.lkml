@@ -14,3 +14,5 @@ datagroup: edf_demo_default_datagroup {
 persist_with: edf_demo_default_datagroup
 
 explore: looker_demo_data_constituents {}
+
+explore: vw_looker_demo_data_constituents {}
