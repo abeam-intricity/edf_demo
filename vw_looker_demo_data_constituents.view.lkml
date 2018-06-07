@@ -91,6 +91,11 @@ view: vw_looker_demo_data_constituents {
     sql: ${TABLE}.TEST_RESPONSE ;;
   }
 
+  dimension: url {
+    type: string
+    sql: ${TABLE}.URL ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [campaign_name]
