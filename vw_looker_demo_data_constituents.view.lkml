@@ -1,5 +1,5 @@
 view: vw_looker_demo_data_constituents {
-  sql_table_name: EDF_EDW.VW_LOOKER_DEMO_DATA_CONSTITUENTS ;;
+  sql_table_name: EDF_EDW_DEV.EDF_EDW.VW_LOOKER_DEMO_DATA_CONSTITUENTS ;;
 
   dimension: activism_type {
     type: string
